@@ -11,11 +11,11 @@ It provides a structure to help you
 building your stylesheet, and includes the Eric Meyer's reset
 and some basic classes.
 
-This is **completely cusomizable* and **evolutive**,
+This is **completely cusomizable** and **evolutive**,
 so feel free to contribute.
 
-**Sam's website** : [example link](http://sammarkiewi.cz)
-**Sam's blog** : [example link](http://blog.sammarkiewi.cz)
-**Twitter account** : [example link](http://twitter.com/sammarkz)
++ **Sam's website**   : [http://sammarkiewi.cz](http://sammarkiewi.cz)
++ **Sam's blog**      : [http://blog.sammarkiewi.cz](http://blog.sammarkiewi.cz)
++ **Twitter account** : [http://twitter.com/sammarkzk](http://twitter.com/sammarkz)
 
 
