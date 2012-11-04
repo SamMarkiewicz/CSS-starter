@@ -1,0 +1,147 @@
+/* @project    :  */
+/* @author     :  */
+/* @date       :  */
+/* @author URL :  */
+
+/* Summary */
+/* 1 - Reset         */
+/* 2 - fx            */
+/* 3 - Fonts         */
+/* 4 - UI            */
+/* 5 - Global        */
+/* 6 - Pages         */
+/* 7 - JS            */
+/* 8 - Media Queries */
+
+/* 1 - Reset         */
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* 2 - fx            */
+/* Includes special classes or behaviors for CSS3 effects*/
+
+/* 3 - Fonts         */
+/* Includes all fonts with @font-face */
+
+/* 4 - UI            */
+/* Includes styles for all UI elements (buttons, inputs, tables, etc...) */
+
+/* 5 - Global        */
+/* Includes all common classes for the website */
+
+/* Clear elements with div or span... */
+.clear {
+  width:100%;
+  clear:both;
+  height:0px;
+  display:block
+}
+
+/* ...or with the CSS-tricks method - http://css-tricks.com/snippets/css/clear-fix/ */
+
+.your-class:before,
+.your-class:after {
+    content: "";
+    display: table;
+}
+.your-class:after {
+    clear: both;
+}
+.your-class {
+    zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+/* Hide or show specific elements on mobile */
+.show-on-phone {
+  display:none;
+}
+
+.hide-on-phone {
+  display: inline-block
+}
+
+.left {
+  float: left;
+  display: inline-block;
+  zoom: 1;
+  *display: inline
+}
+
+.right {
+  float: right;
+  display: inline-block;
+  zoom: 1;
+  *display: inline
+}
+
+
+/* 6 - Pages         */
+/* Styles for all other pages (subdivise with a/index, b/contact, etc... */
+
+/* 7 - JS            */
+/* Includes special classes for js */
+
+/* 8 - Media Queries */
+/* Includes media queries*/
+
+/* For mobile */
+@media only screen and (max-width: 767px) {
+  .show-on-phone {
+    display:inline-block;
+  }
+
+  .hide-on-phone {
+    display: none
+  }
+}
+
+/* For tablets */
+@media only screen and (device-width: 768px), (device-width: 800px) {
+}
