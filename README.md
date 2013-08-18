@@ -11,7 +11,7 @@ It provides a structure to help you
 building your stylesheet, and includes the Eric Meyer's reset
 and some basic classes.
 
-This is **completely cusomizable** and **evolutive**,
+This is **completely customizable** and **evolutive**,
 so feel free to contribute.
 
 + **Sam's website**   : [http://sammarkiewi.cz](http://sammarkiewi.cz)
